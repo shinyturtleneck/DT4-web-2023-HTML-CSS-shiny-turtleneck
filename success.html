@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="mi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Poppins - Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome - icons - this is to display the hamburger menu icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- my Custome CSS -->
+  <link rel="stylesheet" href="style.css">
+  <title>My Website - Success</title>
+</head>
+<body>
+  <main>
+
+    <!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
+        HEADER & NAVIGATION
+  
+      = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
+
+    <header>
+      <h1>My Website - Success</h1>
+      <nav class="topnav" id="myTopnav">
+          <a href="index.html">Home</a>
+          <a href="products.html">Products</a>
+          <a href="contact.html">Contact</a>
+          <a href="about.html">About</a>
+      </nav>
+      <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </header>
+
+      <!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
+          CONTACT FORM
+    
+        = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
+
+
+        <article class="success-page">
+                <h3 class="contact-form__heading">Thanks!</h3>
+                <p>
+                    Your form submission has been received.
+                </p>
+        </article>
+
+  <!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
+      FOOTER
+
+    = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
+
+    <footer>
+      <p>
+        Description of your website goes here.
+      </p>
+      <div class="footer-grid">
+  
+        <article class="footer__menu">
+          <h2 class="footer__menu__heading">
+            Quick links:
+          </h2>
+          <ul class="footer__menu__list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </article>
+  
+        <article class="footer__menu">
+          <h2 class="footer__menu__heading">
+            Quick links:
+          </h2>
+          <ul class="footer__menu__list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </article>
+  
+        <article class="footer__menu">
+          <h2 class="footer__menu__heading">
+            Quick links:
+          </h2>
+          <ul class="footer__menu__list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </article>
+  
+        <article class="footer__menu">
+          <h2 class="footer__menu__heading">
+            Social links:
+          </h2>
+          <ul class="footer__menu__list">
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+          </ul>
+        </article>
+  
+      </div>
+  
+      <div class="footer__site-details">
+        <p>Copyright My Website &copy; 2022.</p>
+      </div>
+    </footer>
+    
+    </main>
+  
+    <script>
+      function toggleMenu() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+  
+  </body>
+  </html>

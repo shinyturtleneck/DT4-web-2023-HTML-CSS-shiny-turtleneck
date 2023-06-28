@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="mi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Poppins - Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome - icons - this is to display the hamburger menu icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- my Custome CSS -->
+  <link rel="stylesheet" href="style.css">
+  <title>My Website - Single Product</title>
+</head>
+<body>
+  <main>
+
+    <!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
+        HEADER & NAVIGATION
+  
+      = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
+
+    <header>
+      <h1>My Website - Single Product</h1>
+      <nav class="topnav" id="myTopnav">
+          <a href="index.html">Home</a>
+          <a href="products.html">Products</a>
+          <a href="contact.html">Contact</a>
+          <a href="about.html">About</a>
+      </nav>
+      <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </header>
+
+    <!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
+        PRODUCT
+  
+      = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
+
+      <article class="productpage__card">
+          <div class="productpage__card__image">
+            <img  src="images/placeholder-img.png" alt="Placeholder image">
+          </div>
+
+              <h2 class="productpage__card__desc__h2">Single proudct</h2>
+
+              <h3 class="productpage__card__desc__h3">Single product description Single product description Single product description Single product description Single product description.</h3>
+              
+              <p class="productpage__card__desc__intro">Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction.</p>
+              
+              <div class="productpage__card__desc block-one">
+                <h4 class="productpage__card__desc__h4">Materials</h4>
+                <ul>
+                    <li>Materials description text</li>
+                    <li>Materials description text</li>
+                    <li>Materials description text</li>
+                    <li>Materials description text</li> 
+                </ul>
+              </div>
+              
+              <div class="productpage__card__desc block-two">
+                <h4 class="productpage__card__desc__h4">Shipping or Buying options</h4>
+                <p>Shipping or Buying options description.</p>
+                <ul>
+                    <li><b>Option one</b> <em>Emphasis</em> and <b>Bold</b> <em>more emphasis</em> rest of description.</li>
+                    <li><b>Option two</b> <em>Emphasis</em> and <b>Bold</b> <em>more emphasis</em> rest of description.</li>
+                    <li><b>Option three</b> <em>Emphasis</em> and <b>Bold</b> <em>more emphasis</em> rest of description.</li>
+                    <li><b>Option four</b> <em>Emphasis</em> and <b>Bold</b> <em>more emphasis</em> rest of description.</li>
+                </ul>
+              </div>
+
+      </article>
+
+  <!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
+      FOOTER
+
+    = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
+
+  <footer>
+    <p>
+      Description of your website goes here.
+    </p>
+    <div class="footer-grid">
+
+      <article class="footer__menu">
+        <h2 class="footer__menu__heading">
+          Quick links:
+        </h2>
+        <ul class="footer__menu__list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </article>
+
+      <article class="footer__menu">
+        <h2 class="footer__menu__heading">
+          Quick links:
+        </h2>
+        <ul class="footer__menu__list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </article>
+
+      <article class="footer__menu">
+        <h2 class="footer__menu__heading">
+          Quick links:
+        </h2>
+        <ul class="footer__menu__list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </article>
+
+      <article class="footer__menu">
+        <h2 class="footer__menu__heading">
+          Social links:
+        </h2>
+        <ul class="footer__menu__list">
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+        </ul>
+      </article>
+
+    </div>
+
+    <div class="footer__site-details">
+      <p>Copyright My Website &copy; 2022.</p>
+    </div>
+  </footer>
+  
+  </main>
+
+  <script>
+    function toggleMenu() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+
+</body>
+</html>
